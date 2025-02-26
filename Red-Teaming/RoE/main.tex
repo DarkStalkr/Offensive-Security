@@ -1,0 +1,479 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{sectsty}
+\usepackage{datetime}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Define colors
+\definecolor{primary}{RGB}{0, 83, 156}
+\definecolor{secondary}{RGB}{152, 0, 46}
+\definecolor{light}{RGB}{240, 240, 240}
+
+% Format section titles
+\sectionfont{\color{primary}\large\bfseries}
+\subsectionfont{\color{primary}\normalsize\bfseries}
+\subsubsectionfont{\color{secondary}\normalsize\bfseries}
+
+% Set up headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{primary}\leaders\hrule height \headrulewidth\hfill}}
+\fancyhead[L]{\textcolor{primary}{Rules of Engagement}}
+\fancyhead[R]{\textcolor{primary}{\today}}
+\fancyfoot[C]{\textcolor{primary}{Page \thepage}}
+
+% Custom environment for objectives and restrictions
+\newenvironment{highlights}{%
+  \begin{tcolorbox}[colback=light, colframe=primary, boxrule=0.5pt]
+}{%
+  \end{tcolorbox}
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\includegraphics[width=0.5\textwidth]{company_logo.png}\par}
+    \vspace{1.5cm}
+    {\Huge\bfseries\textcolor{primary}{Rules of Engagement}\par}
+    \vspace{1cm}
+    {\Large\textcolor{secondary}{Red Team Assessment}\par}
+    \vspace{2cm}
+    {\Large\textbf{Prepared for:}\par}
+    \vspace{0.5cm}
+    {\large $<$CLIENT NAME$>$\par}
+    \vspace{2cm}
+    {\Large\textbf{Prepared by:}\par}
+    \vspace{0.5cm}
+    {\large $<$RED TEAM COMPANY$>$\par}
+    \vspace{1.5cm}
+    {\large\textbf{Document Version:} 1.0\par}
+    \vspace{0.5cm}
+    {\large\textbf{Date:} \today\par}
+    
+    \vfill
+    
+    {\large\textbf{CONFIDENTIAL}\par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Executive Summary}
+\begin{highlights}
+This Rules of Engagement (RoE) document outlines the approvals, authorizations, and critical implementation issues necessary to execute the Red Team engagement. Signing of the RoE constitutes acknowledgement and approval of the customer, system owner, and Red Team of the Red Team's authorities in execution of the engagement.
+
+The objectives include:
+\begin{itemize}
+    \item Objective 1
+    \item Objective 2
+    \item Objective 3
+    \item Objective 4
+\end{itemize}
+
+Explicit Restrictions:
+\begin{itemize}
+    \item Restriction 1
+    \item Restriction 2
+\end{itemize}
+
+Authorized Target Space:
+\begin{itemize}
+    \item IP Range (or set)
+    \item Domains
+    \item URLs
+    \item Network Segments
+\end{itemize}
+
+Activities:
+\begin{itemize}
+    \item Reconnaissance
+    \item Access Types
+    \item Positioning
+    \item Impacts
+\end{itemize}
+\end{highlights}
+
+\section{Rules of Engagement Introduction}
+\subsection{Purpose}
+To establish the responsibilities, relationships, and guidelines between the <RED TEAM COMPANY> Red Team hereafter referred to as "Red Team", $<$the customer$>$, $<$system owner (if different)$>$, and $<$any stakeholders required for engagement execution$>$ for conducting a Red Team engagement on $<$organization, network, or system$>$ hereafter referred to as "target of engagement". The engagement will be conducted from Red Team locations at $<$address$>$ on target systems located at $<$IP/Domain, Address$>$.
+
+\subsection{References}
+\begin{itemize}
+    \item $<$Applicable References Here$>$
+    \item PIA ...
+    \item HIPAA ...
+    \item ISO ...
+\end{itemize}
+
+\subsection{Scope}
+This agreement is applicable to $<$business, customer, system, network$>$ for the receipt of Red Team activities. This document will establish the guidelines, limitations, and restrictions for conducting a Red Team engagement.
+
+\subsection{Definitions}
+$<$Short definition of terms$>$
+
+\section{Rules of Engagement and Support Agreement}
+\begin{enumerate}[label=\alph*.]
+    \item <RED TEAM COMPANY> has been agreed upon to conduct a Red Team engagement and supporting Red Team activities. This document provides the ground rules for planning, executing and reporting the engagement.
+    
+    \item $<$Short description of the services requested and information about the requesting entity$>$. The following systems, networks and/or assets will be included:
+    \begin{itemize}
+        \item $<$List of business/organization systems and networks included$>$
+        \item All software and hardware included as a target during the engagement.
+    \end{itemize}
+    
+    \item The Red Team will $<$list of activities$>$
+    \begin{itemize}
+        \item The engagement is designed to $<$objectives$>$. This means the system must $<$whatever the objectives are designed to test/assess/evaluate/stress$>$.
+        \item For the Red Team, an open network will be utilized. An open network is defined as a network with access to the internet.
+        \item Engagement activities will be conducted using scenarios detailed in the Threat Profile $<$Appendix x$>$.
+        \item The customer is responsible for $<$responsibilities$>$.
+        \item There will be complete and open coordination with all stakeholders required for engagement execution. Stakeholders are the parties represented by the signatories of this document.
+        \item Red Team activities are limited to the target of engagement.
+        \item Red Team tools and activities may be intrusive, but will not intentionally disrupt services outside the authorizations of these Rules of Engagement.
+        \item The Red Team will provide $<$X$>$ updates ($<$list each$>$) as follows:
+        \begin{itemize}
+            \item Update 1: <Conditions>
+            \item Update 2: <Conditions>
+        \end{itemize}
+    \end{itemize}
+    
+    \item <Customer> will: <Include list of responsibilities>
+    \begin{itemize}
+        \item Provide the Red Team administrative facilities and support for all team personnel as necessary to conduct the engagement (if onsite).
+        \item Provide support with network and resources for conducting the engagement, including adequate workspace (quiet facility), network drops and power connections for the Red Team's systems.
+        \item Provide IP address ranges and administrative support for target of engagement.
+        \item Coordinate support of Red Team activities, with the appropriate stakeholders.
+        \item Provide contact information (i.e., names, job titles, phone \& email address) to the signatories of this document.
+        \item Provide to the Red Team the results of the Vulnerability Assessment scans performed prior to the engagement to create the effects of intelligence gathering background efforts expected of a malicious entity.
+    \end{itemize}
+    
+    \item Red Team efforts will be coordinated with <insert POC position/title> for the duration of the engagement. The Red Team will target only those hosts and internet protocol (IP) addresses within the confines and control of the target of engagement network.
+    
+    % Continue with the remaining items...
+\end{enumerate}
+
+\subsection{ROE Provisions}
+The following additional provisions apply to this memorandum:
+\begin{enumerate}[label=\alph*.]
+    \item All operations will be conducted within guidelines established by applicable policy, regulations and laws.
+    
+    \item All contact with computer networks/subnets will be from within the Red Team or target of engagement environment.
+    
+    \item During the engagement, any deviations from these ROE must be mutually agreed to and approved in writing by the senior representatives for the Red Team, <the customer>, <system owner (if different)>, and <any stakeholders required for engagement execution>.
+\end{enumerate}
+
+\subsection{Requirements, Restrictions, and Authority}
+\begin{enumerate}[label=\alph*.]
+    \item The Red Team will:
+    \begin{itemize}
+        \item Provide the appropriate support and input for the planning of the engagement.
+        \item Coordinate engagement approval and support via this Rules of Engagement (ROE).
+        \item Inform target of engagement POCs of all team requirements (logistics, administrative, etc.).
+        \item Coordinate team personnel and administrative issues/concerns with <insert POC position/title>.
+        \item Provide contact information (i.e. names, job titles, phone \& email address) to the <customer> representatives.
+        \item Escalate problems and issues to the appropriate representatives.
+        \item Upload, where appropriate, indicators on systems to demonstrate a compromised state.
+        \item When necessary, add/modify/disable accounts (not delete them) on compromised systems.
+        \item Conduct exploitation with the intent of emulating threat techniques, tactics and procedures.
+        \item May view/read or modify personal data files, PII, or emails.
+        \item NOT use unapproved tools.
+        \item NOT damage systems or networks.
+        \item NOT conduct denial of service (DOS), except as explicitly approved.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Ground Rules}
+This section identifies specific rules associated with the execution of this event.
+\begin{enumerate}[label=\alph*.]
+    \item Network Operations
+    \begin{itemize}
+        \item All systems outside the IP ranges provided under separate cover are off limits
+        \item All <insert here> applications that are discovered during network operations will be off limits. This includes the following (list provided)
+        \item <insert here> are off limits. IP addresses will be provided Appendix <X>.
+    \end{itemize}
+    
+    \item Physical Engagement
+    \begin{itemize}
+        \item All <insert here> areas are off limits to Red Team personnel including transient movement due to potential loss of life, limb, or eyesight
+        \item Buildings <0> through <1> are off limits
+        \item <X> binders in any office will not be inspected, touched or removed.
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Resolution of Issues/Points of Contact (POC)}
+Any issues that may develop, which are not covered by this ROE, will be resolved mutually with all stakeholders.
+\begin{itemize}
+    \item CIO Representative: Mr. Joe Snuffy, (555) 555-0001, joe.snuffy@customer.com
+    \item CIO: Mrs. Jane Doe, (555) 555-0005, jane.doe@customer.com
+    \item Red Team Lead: Mr. James Tubberville, (256) 262-7776, james@minis.io
+    \item Red Team Tech Lead: Mr. Joe Vest, (205) 913-8868, joe@minis.io
+    \item <Trusted Agent>: Mr. Blah Phisher, (555) 555-9876, blah.phisher@cnd.com
+    \item <System Owner>: (REPRESENTAIVE) (PHONE) (EMAIL)
+    \item <Engagement Director>: (REPRESENTAIVE) (PHONE) (EMAIL)
+    \item <White Cell Lead>: (REPRESENTAIVE) (PHONE) (EMAIL)
+    \item <CEO>: (REPRESENTAIVE) (PHONE) (EMAIL)
+\end{itemize}
+
+\section{Authorization}
+This agreement becomes effective upon the date of the last approving official's signature.\\
+Termination of this agreement can be directed by any of the stakeholders listed in this document at any time by giving notice in writing to the non-terminating parties. This agreement can only be modified by mutual written consent of the signatories. Changes must be coordinated by means of an exchange of memoranda between the signatories. This agreement will undergo a review in its entirety with each modification request or by the request of either party after giving notice in writing at least 7 days prior to the review.
+
+\section{Approval}
+The signatures below denote that all parties have read and agree to this Memorandum of Agreement.
+
+\vspace{1cm}
+\begin{tabular}{p{6cm}p{6cm}}
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
+(NAME) & (NAME) \\
+Red Team Lead & Chief Information Officer \\
+<RED TEAM COMPANY> & Customer ORG \\
+\vspace{0.5cm} & \vspace{0.5cm} \\
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
+(Date) & (Date) \\
+\vspace{1cm} & \vspace{1cm} \\
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
+(NAME) & (NAME) \\
+Engagement Directory & Chief Executive Officer \\
+Organization & Customer ORG \\
+\vspace{0.5cm} & \vspace{0.5cm} \\
+\rule{6cm}{0.4pt} & \rule{6cm}{0.4pt} \\
+(Date) & (Date) \\
+\end{tabular}
+
+\newpage
+\appendix
+\section{Target Environment}
+\subsection{List of assets, systems and data}
+\begin{tabularx}{\textwidth}{|X|X|}
+    \hline
+    \textbf{Restricted IP Addresses:} & \textbf{Authorized IP Space:} \\
+    \hline
+    10.10.10.0/24 & 10.10.12.0/24 \\
+    10.10.11.0/24 & 10.10.13.0/24 \\
+    10.11.0.0/16 & 10.12.0.0/16 \\
+    \hline
+    \textbf{Restricted Hosts:} & \textbf{Authorized Hosts:} \\
+    \hline
+    customer\_workstation\_1-1000 & PII\_workstation\_1-1000 \\
+    customer\_server\_1-20 & PII\_server\_1-20 \\
+     & All hosts not expressly restricted \\
+    \hline
+    \textbf{Restricted Buildings:} & \textbf{Authorized Buildings:} \\
+    \hline
+    Bldg. 1 Office 310 & Buildings 1, 2, 3, 4 \\
+    Bldg. 2 Office 600 & All spaces not expressly restricted \\
+    \hline
+\end{tabularx}
+
+\section{Points of Contact}
+<Role, Name, Title, Phone, Email, Office>
+
+\begin{tabularx}{\textwidth}{|l|X|}
+    \hline
+    \textbf{Engagement Director:} & 
+    \begin{itemize}[leftmargin=*]
+        \item Name
+        \item Phone
+        \item Email
+        \item Office Location
+    \end{itemize} \\
+    \hline
+    \textbf{Trusted Agent:} & 
+    \begin{itemize}[leftmargin=*]
+        \item Name
+        \item Title: Chief Information Officer
+        \item Phone
+        \item Email
+        \item Office Location
+    \end{itemize} \\
+    \hline
+    \textbf{White Cell Lead:} & 
+    \begin{itemize}[leftmargin=*]
+        \item Name
+        \item Title: Chief Executive Officer
+        \item Phone
+        \item Email
+        \item Office Location
+    \end{itemize} \\
+    \hline
+    \textbf{Emergency Contact:} & 
+    \begin{itemize}[leftmargin=*]
+        \item Name
+        \item Title: Executive Assistant
+        \item Phone
+        \item Email
+        \item Office Location
+    \end{itemize} \\
+    \hline
+    \textbf{Red Team Lead:} & 
+    \begin{itemize}[leftmargin=*]
+        \item Name
+        \item Phone
+        \item Email
+        \item Office Location
+    \end{itemize} \\
+    \hline
+\end{tabularx}
+
+\section{Red Team Methodology}
+<Example or representative activities only – Detail not required>
+
+\subsection{Get-In:}
+\begin{itemize}
+    \item Reconnaissance
+    \begin{itemize}
+        \item Perform Open Source Intelligence (OSINT) against the target
+        \item Search using open unauthenticated sources
+        \item Target web sites
+        \item Social Media
+        \item Search engines
+        \item Public Code repositories
+    \end{itemize}
+    
+    \item Enumeration
+    \begin{itemize}
+        \item Identify external assets
+        \item Perform reverse DNS scan to identify registered hosts
+        \item Identify URLs and other external touch points from scan and OSINT
+        \item Web presence evaluation
+        \item Browse as a normal user through a web proxy to capture intelligence and understanding
+        \item Identify known vulnerabilities and vulnerable conditions
+    \end{itemize}
+    
+    \item Exploitation
+    \begin{itemize}
+        \item Attempt to exploit targets based on current knowledge
+        \item Perform situational awareness on target
+        \item Attempt Local Privilege Elevation
+        \item Attempt Domain or other system level Privilege Elevation
+    \end{itemize}
+\end{itemize}
+
+\subsection{Stay-In:}
+\begin{itemize}
+    \item Post Exploitation
+    \begin{itemize}
+        \item Identify domain user/groups/memberships
+        \item Identify IP space
+        \item Identify file shares
+        \item Establish persistence
+        \item Use persistence plan to place agents on target systems
+        \item Move Laterally
+    \end{itemize}
+    \item Continued Lateral Movement
+    \item Continued Enumeration
+\end{itemize}
+
+\subsection{Act:}
+\begin{itemize}
+    \item Impact
+    \begin{itemize}
+        \item Modification of Transaction Records
+    \end{itemize}
+    \item Impact
+    \begin{itemize}
+        \item Modification of customer order database
+    \end{itemize}
+\end{itemize}
+
+\section{Engagement objectives}
+As part of the Red Team engagement, <RED TEAM COMPANY> will be replicating the TTPs associated with the group known as <insert group>. Details have been provided in the threat profile listed in Appendix E. This threat has been known to exploit and attack the systems and networks servicing the transactional records, customer order database, and XYZ of organizations similar to <customer>.
+
+\subsection{Objective 1:}
+\begin{itemize}
+    \item Integrity of critical customer transactional data
+    \begin{itemize}
+        \item Determine ability of customer to <insert>
+        \item Determine the system's ability to <insert>
+        \item <next>
+    \end{itemize}
+\end{itemize}
+
+\subsection{Objective 2:}
+\begin{itemize}
+    \item Integrity of customer's order database
+    \begin{itemize}
+        \item Determine ability of customer to <insert>
+        \item Determine the system's ability to <insert>
+        \item <next>
+    \end{itemize}
+\end{itemize}
+
+\subsection{Objective 3:}
+\begin{itemize}
+    \item Evaluation of Incident Response Procedures
+    \begin{itemize}
+        \item Determine ability of customer to <insert>
+        \item Determine the system's ability to <insert>
+        \item Identify potential entry vectors into <insert>
+    \end{itemize}
+\end{itemize}
+
+\section{Threat profile}
+As part of the Red Team engagement, <RED TEAM COMPANY> will be replicating the TTPs associated with the group known as <insert group>. This threat has been known to exploit and attack the systems and networks servicing the transactional records, customer order database, and XYZ of organizations similar to <customer>.
+
+<Note this is a simplified example. A full threat profile will likely be several pages in length>
+
+\subsection{Intent:}
+\begin{itemize}
+    \item Access and control to Financial Transaction Systems
+\end{itemize}
+
+\subsection{Characterization}
+\begin{itemize}
+    \item Associated with the Russian Federation
+    \item Active over multiple years
+    \item Active primarily during Moscow business hours
+    \item Targeted organization based in the financial sector
+    \item Goal of gathering intelligence on financial based organizations
+\end{itemize}
+
+\subsection{Attack and Delivery TTPs}
+\begin{itemize}
+    \item Phishing
+    \item Watering-Hole
+    \item Compromised web servers
+\end{itemize}
+
+\subsection{Exploitation TTPs}
+\begin{itemize}
+    \item PDF Exploits
+    \item JAVA and IE exploits
+    \item Custom Binaries
+\end{itemize}
+
+\subsection{Post Exploitation TTPs}
+\begin{itemize}
+    \item Local system enumeration for OS, username, processes, internet history, etc.
+    \item Scan for known transaction related ports
+    \item DLL injection to migrate into explorer.exe
+\end{itemize}
+
+\subsection{Persistence TTPs}
+\begin{itemize}
+    \item Run key registry modifications
+    \item HKEY\_CURRENT\_USER\textbackslash{}Software\textbackslash{}Microsoft\textbackslash{}Windows\textbackslash{}CurrentVersion\textbackslash{}Run\textbackslash{}"TmProvider"
+    \item HKEY\_LOCAL\_MACHINE\textbackslash{}SOFTWARE\textbackslash{}Microsoft\textbackslash{}Internet Explorer\textbackslash{}InternetRegistry
+\end{itemize}
+
+\end{document}
