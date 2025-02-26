@@ -2,6 +2,8 @@
 
 A comprehensive, legally binding document that establishes the framework for Red Team assessments.
 
+Based on: [Red Team Guide RoE Template](https://redteam.guide/docs/templates/roe_template/)
+
 ## 📝 Description
 
 The Rules of Engagement (RoE) serves as a legally binding contract between the Red Team and the client, outlining the objectives, scope, and expectations of the engagement. This document requires proper authorization from both parties and acts as the foundation for the entire assessment process.
@@ -78,3 +80,10 @@ The methodology typically follows three phases:
 ---
 
 *This README provides a high-level overview of the Rules of Engagement documentation. For the complete LaTeX template, please refer to the roe-template.tex file.*
+
+## 📚 References
+
+1. Red Team Guide. (2023). Rules of Engagement Template. Retrieved from https://redteam.guide/docs/templates/roe_template/
+2. SANS Institute. (2022). Red Team Operations Rules of Engagement Template.
+3. Tubberville, J., & Vest, J. (2022). Red Team Development and Operations. Boston, MA: No Starch Press.
+4. Miessler, D. (2020). Rules of Engagement in Offensive Security Testing. In *Security Operations* (pp. 145-160).
