@@ -1,6 +1,4 @@
-# Offensive Security Repo
-
-- This repository main scope is in Offensive Security Solutions, primarly targetting Windows Operating Systems & GNU/Linux Distributions:
+# <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705" alt="Red Team Operator" width="70" style="vertical-align: middle; margin-right: 10px;"> Offensive Security- This repository main scope is in Offensive Security Solutions, primarly targetting Windows Operating Systems & GNU/Linux Distributions:
 
 
 ## Repository Structure
