@@ -39,7 +39,7 @@ The RoE typically includes several appendices providing additional details:
 
 <div align="center">
   <p><b>Preview of RoE Document Format</b></p>
-  <img src="sources/Red-Teaming" alt="RoE Document Preview 1" width="600"/>
+  <img src="/Offensive-Security/sources/Red-Teaming/Preview_1.png" alt="RoE Document Preview 1" width="600"/>
   <br><br>
   <img src="sources/Red-Teaming/Preview_2.png" alt="RoE Document Preview 2" width="600"/>
   <br><br>
