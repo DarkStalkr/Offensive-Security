@@ -23,10 +23,10 @@ Repository focused on Offensive Security solutions, guides & content:
 Planned and designed threat actor emulation using TTPs, CONOPs and attack frameworks to emulate in detail an engagement operation.
 
 ### Malware Development
-A collection of resources exploring malware creation techniques to better understand how malicious software operates, facilitating improved detection and prevention strategies.
+A collection of resources exploring malware creation from it's life cycle, throught their complex techniques to better understand how malicious software artifacts operate, facilitating improved detection and prevention strategies in blue teams.
 
 ### Social Engineering Tactics
-Documentation and analysis of social engineering methodologies, helping security professionals understand psychological manipulation techniques used in cyberattacks.
+Analysis and documentation of diverse social engineering methodologies, stemming from the psychology perspective throught the sophisticated fabrication of social engineering campaigns, aiding threat intelligence professionals understand the TTPs used in cyberattacks.
 
 ### Exploit Analysis & Development
 Resources for understanding vulnerability exploitation, including common vulnerability classes, methodologies, mitigation bypasses, and defense evasion techniques.
@@ -59,20 +59,19 @@ A structured learning path for understanding malware development:
 - **Module 6**: Windows Memory Management
 
 ## Social Engineering Tactics
-*Documentation coming soon*
+In progress
 
 ## Exploit Analysis & Development
-*Documentation coming soon*
+In progress
 
 ## Pentesting Reports
-*Templates and examples coming soon*
-
+In progress
 ## Learning Path
-This repository follows a structured learning approach, building fundamental knowledge before advancing to more complex topics. We recommend following the modules sequentially within each section.
+This repository follows a structured learning path, prior security knowledge is required before advancing to more complex topics. 
 
 ## Contribution Guidelines
 Contributions are welcome! Please follow these guidelines:
-1. All submissions must adhere to ethical standards
+1. Mutual respect.
 2. Code contributions should include detailed documentation
 3. Practical examples should be accompanied by defensive countermeasures
 4. Submit pull requests with clear descriptions of additions or modifications
