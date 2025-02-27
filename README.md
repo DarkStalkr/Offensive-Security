@@ -1,35 +1,71 @@
-# <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705" alt="Red Team Operator" width="70" style="vertical-align: middle; margin-right: 10px;"> Offensive Security 
+# <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705" alt="Red Team Operator" width="70" style="vertical-align: middle; margin-right: 10px;"> Offensive Security
 
-This repository main scope is in Offensive Security Solutions, primarly targetting Windows Operating Systems & GNU/Linux Distributions:
+This repository focuses on Offensive Security solutions, primarily targeting Windows Operating Systems & GNU/Linux Distributions.
 
+## 📚 Table of Contents
+
+- [Repository Structure](#repository-structure)
+- [Red Teaming](#red-teaming)
+  - [Campaign Planning](#campaign-planning)
+  - [Rules of Engagement](#rules-of-engagement)
+- [Malware Development](#malware-development)
+- [Social Engineering Tactics](#social-engineering-tactics)
+- [Exploit Analysis & Development](#exploit-analysis--development)
+- [Pentesting Reports](#pentesting-reports)
+- [Learning Path](#learning-path)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Disclaimer](#disclaimer)
+- [Resources](#resources)
 
 ## Repository Structure
 
-### 1. Malware Development
+### Red Teaming
+Advanced simulated attacks that mimic real-world threat actors to test an organization's security posture.
+
+### Malware Development
 A collection of resources exploring malware creation techniques to better understand how malicious software operates, facilitating improved detection and prevention strategies.
 
-- **Beginner Modules**:
-  - Module 2: Introduction to Windows API Programming
-  - Module 4: Process Injection Techniques
-  - Module 5: Anti-Analysis Methods
-  - Module 6: Windows Memory Management
-  
-### 2. Social Engineering Tactics
+### Social Engineering Tactics
 Documentation and analysis of social engineering methodologies, helping security professionals understand psychological manipulation techniques used in cyberattacks.
 
-### 3. Exploit Analysis & Development
-Resources for understanding vulnerability exploitation, including:
-- Common vulnerability classes
-- Exploit development methodologies
-- Mitigation bypasses
-- Defense evasion techniques
+### Exploit Analysis & Development
+Resources for understanding vulnerability exploitation, including common vulnerability classes, methodologies, mitigation bypasses, and defense evasion techniques.
 
-### 4. Pentesting Reports
-Templates and examples of professional penetration testing documentation:
-- Vulnerability assessment reports
-- Findings classification methodologies
-- Remediation recommendations
-- Executive summaries
+### Pentesting Reports
+Templates and examples of professional penetration testing documentation, including assessment reports, classification methodologies, remediation recommendations, and executive summaries.
+
+## Red Teaming
+
+### [Campaign Planning](/Red-Teaming/Campaign-Planning/)
+Resources for planning and executing effective red team engagements:
+
+- [Red Team Engagement Planning](/Red-Teaming/Campaign-Planning/red-team-engagement-planning.md) - Comprehensive guide on planning structure, execution phases, and checklists
+- [TTP Mapping & Threat Intel](/Red-Teaming/Campaign-Planning/red-team-threat-intel.md) - Methodology for mapping adversary TTPs to cyber kill chains for realistic emulation
+
+### [Rules of Engagement](/Red-Teaming/RoE/)
+Documentation and templates for establishing the legal and operational boundaries of a red team engagement:
+
+- [RoE Overview](/Red-Teaming/RoE/README.md) - Key components and structure of Rules of Engagement documents
+- [LaTeX Template](/Red-Teaming/RoE/main.tex) - Comprehensive RoE template in LaTeX format
+
+## Malware Development
+
+### Beginner Modules
+A structured learning path for understanding malware development:
+
+- **Module 2**: Introduction to Windows API Programming
+- **Module 4**: Process Injection Techniques
+- **Module 5**: Anti-Analysis Methods
+- **Module 6**: Windows Memory Management
+
+## Social Engineering Tactics
+*Documentation coming soon*
+
+## Exploit Analysis & Development
+*Documentation coming soon*
+
+## Pentesting Reports
+*Templates and examples coming soon*
 
 ## Learning Path
 This repository follows a structured learning approach, building fundamental knowledge before advancing to more complex topics. We recommend following the modules sequentially within each section.
