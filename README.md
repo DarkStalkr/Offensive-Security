@@ -20,7 +20,7 @@ This repository focuses on Offensive Security solutions, primarily targeting Win
 ## Repository Structure
 
 ### Red Teaming
-Advanced simulated attacks that mimic real-world threat actors to test an organization's security posture.
+Planned and designed threat actor emulation using TTPs, CONOPs and attack frameworks to emulate in detail an engagement operation.
 
 ### Malware Development
 A collection of resources exploring malware creation techniques to better understand how malicious software operates, facilitating improved detection and prevention strategies.
