@@ -1,6 +1,6 @@
 # <img src="https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574324705" alt="Red Team Operator" width="70" style="vertical-align: middle; margin-right: 10px;"> Offensive Security
 
-This repository focuses on Offensive Security solutions, primarily targeting Windows Operating Systems & GNU/Linux Distributions.
+Repository focused on Offensive Security,
 
 ## 📚 Table of Contents
 
