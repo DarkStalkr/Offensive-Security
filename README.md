@@ -1,8 +1,7 @@
-<p align="center">
-  <img src="sources/spider-2.png" alt="Red Team Operator" width="240">
-  <br>
-  <h1><b>Offensive Security:</b><h1>
-</p>
+<h1 align="center">
+  <img src="sources/spider-2.png" alt="Red Team Operator" width="120">
+  Offensive Security
+</h1>
 Repository focused on Off Sec solutions, pentesting guides & educational content:
 
 ## 📚 Table of Contents
