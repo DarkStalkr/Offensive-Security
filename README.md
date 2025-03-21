@@ -8,7 +8,7 @@ Repository focused on Offensive Security solutions, guides & content:
 - [Red Teaming](#red-teaming)
   - [Campaign Planning](#campaign-planning)
   - [Rules of Engagement](#rules-of-engagement)
-- [Malware Development](#malware-development)
+- [Malware Development](Malware-Development/Beginner-Modules)
 - [Social Engineering Tactics](#social-engineering-tactics)
 - [Exploit Analysis & Development](#exploit-analysis--development)
 - [Pentesting Reports](#pentesting-reports)
