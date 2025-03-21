@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="sources/spider-2.png" alt="Red Team Operator" width="120">
-  <span style="vertical-align: middle; font-size: 24px; font-weight: bold;">Offensive Security</span>
+  <h1>
+    <img src="sources/spider-2.png" alt="Red Team Operator" width="120">
+    Offensive Security
+  </h1>
 </div>
 Repository focused on Offensive Security solutions, guides & content:
 
