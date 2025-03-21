@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="sources/spider-2.png" alt="Red Team Operator" width="120">
+  <img src="sources/spider-2.png" alt="Red Team Operator" width="240">
   <br>
   <h1>Offensive Security</h1>
 </p>
