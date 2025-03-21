@@ -8,16 +8,17 @@ Repository focused on Off Sec solutions, pentesting guides & educational content
 
 ## 📚 Table of Contents
 
-- [Repository Structure](#repository-structure)
-- [Red Teaming](#red-teaming)
+1. [Red Teaming](#red-teaming)
   - [Campaign Planning](#campaign-planning)
   - [Rules of Engagement](#rules-of-engagement)
-- [Malware Development](Malware-Development/Beginner-Modules)
-- [Social Engineering Tactics](#social-engineering-tactics)
-- [Exploit Analysis & Development](#exploit-analysis--development)
-- [Pentesting Reports](#pentesting-reports)
-- [Learning Path](#learning-path)
-- [Contribution Guidelines](#contribution-guidelines)
+    
+2. [Malware Development](Malware-Development/Beginner-Modules)
+   
+3. [Exploit Analysis & Development](#exploit-analysis--development)
+   
+4. [Pentesting Guides](#pentesting-reports)
+
+
 - [Disclaimer](#disclaimer)
 - [Resources](#resources)
 
