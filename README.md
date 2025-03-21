@@ -82,7 +82,7 @@ Contributions are welcome! Please follow these guidelines:
 4. Submit pull requests with clear descriptions of additions or modifications
 
 ## Disclaimer
-The techniques and code examples contained in this repository could be misused if applied with malicious intent. The author(s) assume no liability for misuse of this information. All activities performed using the knowledge gained from these resources should comply with applicable laws and regulations.
+The techniques and code examples contained in this repository could be misused if applied with malicious intent. I, the author assume no liability for misuse of this information. All activities performed using the knowledge gained from these resources should comply with applicable laws and regulations of your country of origin.
 
 ## Resources
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
